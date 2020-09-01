@@ -10,6 +10,10 @@ body {
     overflow-x: hidden;
 }
 
+#con {
+    visibility: hidden;
+}
+
 header {
     margin: auto;
 }
@@ -64,6 +68,11 @@ header::before {
     top: 0px;
 }
 
+#loc {
+    position: relative;
+    left: 70px;
+}
+
 .nav {
     background: linear-gradient(56deg, rgba(255, 0, 0, 0.986), rgb(217, 1, 255), rgb(0, 98, 255), rgb(56, 150, 226), #77c9f8);
 }
@@ -76,8 +85,11 @@ header::before {
     left: 0px;
     height: 100%;
     width: 100%;
-    z-index: -1;
     opacity: 0.7;
+}
+
+.about {
+    z-index: -25;
 }
 
 #navbar ul {
@@ -93,10 +105,6 @@ header::before {
 #btn2 {
     position: relative;
     left: 300px;
-}
-
-#con {
-    opacity: 0;
 }
 
 #navbar ul li a {
@@ -170,6 +178,10 @@ header::before {
     align-items: center;
 }
 
+#swagat {
+    width: 700px;
+}
+
 #home::before {
     content: "";
     position: absolute;
@@ -196,6 +208,7 @@ header::before {
     margin: 90px 0px;
     justify-content: center;
     align-items: center;
+    z-index: 1;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     justify-content: center;
@@ -216,6 +229,21 @@ header::before {
     background-color: white;
     height: 100%;
     width: 100%;
+}
+
+#swagat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 245, 245);
+    font-family: 'Kalpurush', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    bottom: -93px;
+    text-align: center;
+    z-index: -1;
+    padding: 0px 0px;
+    width: 300px;
 }
 
 #gellery {
@@ -341,6 +369,11 @@ button:hover {
     border-style: none;
     border-radius: 10px;
     color: cornsilk;
+}
+
+#swagat {
+    position: relative;
+    bottom: 50px;
 }
 
 

@@ -5,7 +5,7 @@ body {
 
 h1 {
     font-family: 'Bree Serif', serif;
-    font-size: 50px;
+    font-size: 24px;
     padding: 12px;
     text-decoration: none;
     color: rgb(9, 95, 255);
@@ -13,6 +13,7 @@ h1 {
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
 }
 
 span {
@@ -22,10 +23,10 @@ span {
 
 #About {
     content: "";
-    width: 1080px;
+    width: 200px;
     position: relative;
     display: flex;
-    left: 140px;
+    left: 70px;
     margin: 90px 0px;
     justify-content: center;
     align-items: center;

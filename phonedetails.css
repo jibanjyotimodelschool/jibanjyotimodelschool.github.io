@@ -1,0 +1,44 @@
+                body {
+                    background: url('IMG_20170815_081553.jpg')no-repeat center center/cover;
+                    ;
+                }
+                
+                h1 {
+                    font-family: 'Bree Serif', serif;
+                    font-size: 50px;
+                    padding: 12px;
+                    text-decoration: none;
+                    color: rgb(9, 95, 255);
+                    right: 415px;
+                }
+                
+                #About {
+                    content: "";
+                    width: 322px;
+                    position: relative;
+                    display: flex;
+                    left: 0px;
+                    margin: 90px 0px;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    background-color: rgb(255, 255, 255);
+                    justify-content: center;
+                    align-items: center;
+                    transition: all 1s ease-in-out .2s;
+                }
+                
+                #About:hover {
+                    box-shadow: 5px 5px 20px 10px black;
+                    background-color: rgb(197, 197, 197);
+                    border-radius: 50px;
+                }
+                
+                span {
+                    color: blue;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                
+                h2 {
+                    font-size: 14px;
+                }
